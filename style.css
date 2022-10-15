@@ -87,22 +87,20 @@
 		margin-top: 35px;
 		cursor: pointer;
 		color: var(--white);
+		display: flex;
+		align-items:center;
+		justify-content: center;
 		border:1px solid red;
 	}
 	.icon:hover{
 		background-color: var(--very_darkCyan);
 	}
-.icon span{
-	display: flex;
-	color: var(--white);
-	align-items:center;
-	justify-content: center;
-}
 .number{
 	margin-top: 10px;
 }
 /* numbers */
 #nostrike{
+	text-decoration: line-through;
 	color: var(--darkCyan);
 	font-size: 24px;
 	font-family: 'Fraunces', serif;
