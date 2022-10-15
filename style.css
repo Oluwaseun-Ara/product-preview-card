@@ -46,7 +46,7 @@
 		font-weight: 700;
 		font-family: 'Fraunces', serif;
 	}
-	p{
+	.card-text p{
 		margin-top: 20px;
 		color: var(--dark_greyBlue);
 		padding-bottom: 20px;
@@ -56,7 +56,7 @@
 	/* card container */
 	.container {
 		display:grid;
-		grid-template-columns: 52% 48%;
+		grid-template-columns:repeat(2,1fr);
 		margin:50px auto 0px auto;
 		border-radius: 20px;
 		background-color: var(--white);
@@ -64,10 +64,10 @@
 		height: 35rem;
 	}
 	/* image container */
-	picture{
+	.image-fluid{
 		width: 20rem;
 	}
-	picture img{
+	.image-fluid img{
 		width: 20rem;
 		height: 35rem;
 		border-top-left-radius: 20px;
@@ -90,7 +90,7 @@
 	.icon:hover{
 		background-color: var(--very_darkCyan);
 	}
-a span{
+.icon span{
 	display: flex;
 	color: var(--white);
 	justify-content: center;
@@ -131,10 +131,10 @@ a span{
 		height: 40rem;
 		overflow: hidden;
 	}
-	picture{
+	.image-fluid{
 		width: 100%;
 	}
-	picture img{
+	.image-fluid img{
 		width: 100%;
 		height: 15rem;
 		border-top-left-radius: 20px;
