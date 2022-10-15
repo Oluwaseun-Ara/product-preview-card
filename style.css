@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 :root {
 		--very_darkCyan: hsl(159, 79%, 15%);
 		--darkCyan: hsl(158, 36%, 37%);
@@ -17,13 +18,18 @@
 	}
 	html{
 		width: 100%;
-		height: 100%;
-		background-color: var(--cream);
+		height: 100%;	
 	}
-	body{
-		width: 40rem;
+	body{  width: 100%;
+  		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: var(--cream);
+/* 		width: 40rem;
 		height: 35rem;
-		margin: 0 auto;
+		margin: 0 auto; */
 	}
 	/* text and headings */
 	h6{
@@ -58,17 +64,14 @@
 		height: 35rem;
 	}
 	/* image container */
-	.image-fluid{
+	picture{
 		width: 20rem;
 	}
-	.image-fluid img{
+	.picture img{
 		width: 20rem;
 		height: 35rem;
 		border-top-left-radius: 20px;
 		border-bottom-left-radius: 20px;
-	}
-	.mobile{
-		display: none;
 	}
 	/* card body container */
 	.contain{
@@ -110,11 +113,14 @@ a span{
 	opacity: .5;
 	margin-left: 5px;
 }
+.attribution { font-size: 11px;
+	text-align: center;
+}
+ .attribution a { color: hsl(228, 45%, 44%); }
 @media screen and (max-width:585px){
 	body{
 		width: 100%;
-		height:45rem;
-		margin: 0 auto;
+		min-height: 100vh;
 	}
 	.container {
 		display:flex;
@@ -124,29 +130,22 @@ a span{
 		background-color: var(--white);
 		width: 22rem;
 		height: 40rem;
-		padding: 20px 10px;
 		overflow: hidden;
 	}
-	.image-fluid{
+	picture{
 		width: 100%;
 	}
-	.image-fluid img{
+	picture img{
 		width: 100%;
 		height: 15rem;
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
 		border-bottom-left-radius: 0px;
 	}
-	.desktop{
-	display: none;
-	}
-	.mobile{
-		display: unset;
-	}
 	.contain{
 		width: 100%;
 		height: 20rem;
-		padding: 8px;
+		padding: 20px 10px;
 	}
 	h6{
 		padding-top: 8px;
