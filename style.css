@@ -29,7 +29,7 @@
 		align-items: center;
 		background-color: var(--cream);
 /* 		width: 40rem;
-		height: 35rem;
+		height: 30rem;
 		margin: 0 auto; */
 	}
 	/* text and headings */
@@ -62,7 +62,7 @@
 		border-radius: 20px;
 		background-color: var(--white);
 		width: 40rem;
-		height: 35rem;
+		height: 30rem;
 	}
 	/* image container */
 	.image-fluid{
@@ -70,14 +70,14 @@
 	}
 	.image-fluid img{
 		width: 20rem;
-		height: 35rem;
+		height: 30rem;
 		border-top-left-radius: 20px;
 		border-bottom-left-radius: 20px;
 	}
 	/* card body container */
 	.card-text{
 		width: 19rem;
-		height: 35rem;
+		height: 30rem;
 		padding: 10px;
 	}
 	/* cart and numbers container */
